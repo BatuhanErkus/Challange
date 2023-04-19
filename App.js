@@ -52,7 +52,7 @@ function App() {
     <div className="App">
       <div className="PDFViewer">
         <Document
-          file="/path/to/pdf/document.pdf"
+          file="/path/to/pdf/document.pdf" /* We can write our pdf path */
           onLoadSuccess={onDocumentLoadSuccess}
         >
           <Page pageNumber={pageNumber} />
