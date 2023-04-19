@@ -26,6 +26,6 @@ Handle the responses from the backend and update the React components accordingl
 
 Start the React project by running the following command in your terminal:
 
-# npm start
+npm start
 
 This will start the React project and now we can see the PDF viewer and signature wizard in our browser.
