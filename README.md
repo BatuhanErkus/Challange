@@ -14,15 +14,18 @@ Create the necessary React components.
 # Displaying the PDF document:
 Use a PDF viewer library like react-pdf to display the PDF document.
 Fetch the PDF document from the backend using the REST API endpoint.
+(src/Pdfviewer.js)
 
 # Implementing the signature wizard:
 Create a form that collects the user's name and PIN (1337 default).
 On form submission, send a POST request to the backend to collect the signature.
 Use a library like react-signature-canvas to allow the user to draw their signature.
+(src/Wizard.js)
 
 # Connect the React app to the backend:
 Use the fetch API to make HTTP requests to the REST API endpoints defined in the backend.
 Handle the responses from the backend and update the React components accordingly.
+(index.js is the backend file inside the my-app)
 
 Start the React project by running the following command in your terminal:
 
